@@ -5,25 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Grid</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-    body {
-        font-family: 'Lato', sans-serif;
-        background-color: white;
-    }
-
-    p, li {
-        font-family: 'PT Serif', serif;
-    }
-
-    .container{
-        display: flex;
-        justify-content: center;
-    }
-    .content-wrapper{
-        width: 660px;
-    }
-</style>
 </head>
 <body>
     <div class="container">
@@ -35,32 +18,78 @@
             <p>Las siguientes guías se han proporcionado para ayudarte a mantener la integridad y el uso previsto de nuestro logotipo y de la marca en tus materiales de marketing. Seguir estas guías reforzará tanto tu profesionalidad como la nuestra, así como la legitimidad ante la audiencia.</p> 
 
             <p>Gracias de nuevo por tu interés y tu relación SmartLearning. Por favor, revisa las guías indicadas a continuación (los recursos del logotipo pueden descargarse más abajo):</p>
-        </div>
+        
 
-        <div class="stytle-details">
-            <div class="style-details-text">
-                <h3>Logotipo Principal</h3>
+            <div class="style-details">
+                <div class="style-details-text">
+                    <h3>Logotipo Principal</h3>
 
-                <div>Espacio en blanco = 1/4 del ancho del logotipo</div>
-                <div>Logotipo blanco sobre azul principal</div>
+                    <div>Espacio en blanco = 1/4 del ancho del logotipo</div>
+                    <div>Logotipo blanco sobre azul principal</div>
 
-                <h3>Color Principal</h3>
+                    <h3>Color Principal</h3>
 
-                <div>#0079FF</div> <div>RGB 0, 121, 255</div>
+                    <div>#0079FF</div> 
+                    <div>RGB 0, 121, 255</div>
 
-                <h3>Nombre</h3>
+                    <h3>Nombre</h3>
 
-                <div>Usar mayúscula en la “S” y la “L”</div> <div>Sin espacio entre las palabras</div>
+                    <div>Usar mayúscula en la “S” y la “L”</div> 
+                    <div>Sin espacio entre las palabras</div>
+
+                </div>
+                <div class="style-details-logo">
+                    <img src="images/logo_with-margin.png" alt="logo">
+
+                </div>
 
             </div>
-            <div class="style-details-logo">
-                <img src="images/logo_with-margin.png">
+             <div class="dos_donts_wrapper">
+        <div class="dos_donts_list">
+          <div class="dos_donts_heading blue_text">
+            Qué SÍ hacer con el logo
+          </div>
 
-            </div>
-
+          <ul>
+            <li>Proporcionar suficiente espacio en blanco alrededor del logo.</li>
+            <li>El icono debe ser siempre blanco.</li>
+            <li>Mantener un tamaño grande para que el icono no quede oculto.</li>
+            <li>Colocar el logo sobre fondo blanco o colores de fondo claros.</li>
+          </ul>
         </div>
 
+        <div class="dos_donts_list">
+          <div class="dos_donts_heading red_text">
+            Qué NO hacer con el logo
+          </div>
 
+          <ul>
+            <li>Estirar o escalar el logo de forma no uniforme.</li>
+            <li>Recortar o cubrir parcialmente el logo con otros objetos.</li>
+            <li>Cambiar el color del logo o del texto a cualquier color que no sea nuestro color principal.</li>
+          </ul>
+        </div>
+
+        <div class="donts_images">
+          <div class="dont_image_box">
+            <img src="images/dont_stretch.png">
+            <div>Estirar</div>
+          </div>
+
+          <div class="dont_image_box">
+            <img src="images/dont_crop.png">
+            <div>Recortar</div>
+          </div>
+
+          <div class="dont_image_box">
+            <img src="images/dont_color.png">
+            <div>Color</div>
+          </div>
+        </div>
+      </div>
+
+
+        </div>
     </div>
     
 </body>
